@@ -78,7 +78,7 @@ export default function PricingSection() {
                   тривалість: {service.duration}
                 </span>
               </div>
-              <div className="text-xl md:text-2xl text-brand-accent font-serif font-light tracking-wider whitespace-nowrap">
+              <div className="text-2xl md:text-3xl text-brand-accent font-serif font-medium tracking-wider whitespace-nowrap md:text-right">
                 {service.price}
               </div>
             </motion.div>
